@@ -1,4 +1,4 @@
-def codificar(mensagem: str = 'ola eu sou fabricio'):
+def codificar(mensagem: str = 'ola eu sou Kyvernitis'):
     """Codifica uma mensagem e retorna ela codificada"""
     lista = [['a', '!'], ['b', '@'], ['c', '#'], ['d', '$'], ['e', '%'],
              ['f', '&'], ['g', '*'], ['h', '+'], ['i', '^'], ['j', '<'],
@@ -19,7 +19,7 @@ def codificar(mensagem: str = 'ola eu sou fabricio'):
     return mensagem_codificada
 
 
-def decodificar(mensagem: str = '?;!_%}_)?}_&!@(^#^?'):
+def decodificar(mensagem: str = '?;!_%}_)?}_'):
     """Decodifica uma mensagem codificada e retorna ela descodificada"""
     lista = [['a', '!'], ['b', '@'], ['c', '#'], ['d', '$'], ['e', '%'],
              ['f', '&'], ['g', '*'], ['h', '+'], ['i', '^'], ['j', '<'],
